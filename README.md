@@ -1,6 +1,8 @@
 # Front-End Portfolio Project 
 
-This is a Horoscope App intended for submission during the 9.3 Pursuit Fellowship Module 2 portfolio project. Please see [the live project here]().
+This is a Horoscope App intended for submission during the 9.3 Pursuit Fellowship Module 2 portfolio project. Please see [the live project here](https://figgeryboo-horoscope-project.netlify.app/).
+
+Deployed with netlify.
 
 ## Daily Horoscope App 
 
