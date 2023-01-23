@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Horoscope</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Find Your Daily Horoscope</h1>
+            <br>
+        </div>
+        <form id="form">
+            <label>Please input your zodiac sign:</label>
+            <input id="starsign" type="text" required minlength="3" maxlength="11"></input>
+            <button type="submit" name="Go">Get My Horoscope!</button>
+            <button onclick="window.location.href = '/secondary/secondary.html';" id="tunes">Check Out Some Tunes</button>
+
+        </form>
+    </div>
+    <br>
+    <div id="fortune">
+        <h3 id="zodiacname">Your Daily Fortune Awaits...</h3>
+        <p id="fortunedate"></p>
+        <p id="fortunetext"></p>
+    </div>
+    <div class="affirmation">
+        <h4 id="quote">Your Affirmation for the Day:</h4>
+        <p id="quote-text"></p>
+    </div>
+    <script src="quotes.js"></script>
+</body>
+
+</html>
